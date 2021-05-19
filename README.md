@@ -1,8 +1,6 @@
 # App Master
 
 
-***
-
 ## generate SSH Keys
 
 
@@ -11,7 +9,6 @@
 
 https://docs.gitlab.com/ee/ssh/
 
-***
 
 ## pull Project
 
