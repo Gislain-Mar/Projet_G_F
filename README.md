@@ -1,25 +1,21 @@
-# GitOps-Kontoverwaltung
-
-## Table of Contents
-
-1. [Generate SSH Key] (#generate-SSH-Keys)
-2. [Pull GitLab Project] (#pull-Project)
+# App Master
 
 
+***
 
 ## generate SSH Keys
 
-***
+
 
 1. Follow the link and generate an SSH Key for pulling the project 
 
 https://docs.gitlab.com/ee/ssh/
 
-
-
-## Pull Project
-
 ***
+
+## pull Project
+
+
 1. First you need to clone the project via GitLab via SSH or HTTPS (in my example vie SSH)
 
 ```
