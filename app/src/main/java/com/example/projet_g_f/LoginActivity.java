@@ -16,8 +16,9 @@ import android.widget.TextView;
 
 public class LoginActivity extends AppCompatActivity {
 
-    EditText mEditText_Email,mEditText_Password;
-    CardView mCardView_LogIn;
+    private EditText mEditText_Email,mEditText_Password;
+    private CardView mCardView_LogIn;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
