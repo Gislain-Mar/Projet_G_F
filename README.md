@@ -2,12 +2,12 @@
 
 ## Table of Contents
 
-1. [Generate SSH Key] (#generate-SSH-Key)
+1. [Generate SSH Key] (#generate-SSH-Keys)
 2. [Pull GitLab Project] (#pull-Project)
 
 
 
-## Generate SSH Key
+## generate SSH Keys
 
 ***
 
@@ -15,9 +15,9 @@
 
 https://docs.gitlab.com/ee/ssh/
 
-***
 
-## Pull GitLab Project
+
+## Pull Project
 
 ***
 1. First you need to clone the project via GitLab via SSH or HTTPS (in my example vie SSH)
