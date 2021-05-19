@@ -3,7 +3,7 @@
 ## Table of Contents
 
 1. [Generate SSH Key] (#generate-SSH-Key)
-2. [Pull GitLab Project](#pull-Project)
+2. [Pull GitLab Project] (#pull-Project)
 
 
 
@@ -25,7 +25,7 @@ https://docs.gitlab.com/ee/ssh/
 ```
 git clone git@gitlab.com:design-thinking-workshop/app-master/app-master.git
 ```
-```
+
 
 2. Then you can open it via Android Studio 
 
