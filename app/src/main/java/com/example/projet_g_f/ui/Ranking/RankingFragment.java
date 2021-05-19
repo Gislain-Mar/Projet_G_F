@@ -16,12 +16,10 @@ import com.example.projet_g_f.R;
 
 public class RankingFragment extends Fragment {
 
-    private RankingViewModel RankingViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        RankingViewModel =
-                new ViewModelProvider(this).get(RankingViewModel.class);
+
         View root = inflater.inflate(R.layout.fragment_rank, container, false);
  
         return root;

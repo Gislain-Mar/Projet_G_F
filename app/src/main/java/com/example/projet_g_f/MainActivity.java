@@ -79,8 +79,8 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     dialog.dismiss();
-                    homefragment.Increase_Score();
-                    homefragment.Text_Messages();
+                    homefragment.expandSizeMenu();
+                    homefragment.setText_plastic_scan(intentResult.getContents());
                 }
             });
             builder.show();
