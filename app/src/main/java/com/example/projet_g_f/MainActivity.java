@@ -79,7 +79,12 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     dialog.dismiss();
+<<<<<<< HEAD
                     homefragment.expandSizeMenu();
+=======
+                    homefragment.Increase_Score();
+                    homefragment.Text_Messages();
+>>>>>>> a342f5e93b14fd7b991bb2e674b7eaeb432f62da
                     homefragment.setText_plastic_scan(intentResult.getContents());
                 }
             });

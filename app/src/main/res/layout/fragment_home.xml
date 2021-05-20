@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="20dp"/>
+<<<<<<< HEAD
     <TextView
         android:id="@+id/plastic_scanned"
         android:layout_width="200dp"
@@ -80,6 +81,8 @@
 
 
    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+=======
+>>>>>>> a342f5e93b14fd7b991bb2e674b7eaeb432f62da
 
     <Button
         android:id="@+id/btn_Scan"
@@ -92,6 +95,7 @@
         android:text="Submit"
         android:padding="20dp"/>
 
+<<<<<<< HEAD
     <TextView
         android:id="@+id/textview_maximum"
         android:layout_width="wrap_content"
@@ -103,16 +107,25 @@
         android:textSize="17sp"
         android:textStyle="italic"/>
 
+=======
+>>>>>>> a342f5e93b14fd7b991bb2e674b7eaeb432f62da
     <ProgressBar
         android:id="@+id/ProgressBar"
         style="@style/Widget.AppCompat.ProgressBar.Horizontal"
         android:layout_width="450dp"
         android:layout_height="18dp"
+<<<<<<< HEAD
         android:layout_below="@+id/textview_maximum"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="-190dp"
         android:layout_marginTop="200dp"
+=======
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-190dp"
+        android:layout_marginTop="100dp"
+>>>>>>> a342f5e93b14fd7b991bb2e674b7eaeb432f62da
         android:layout_marginBottom="265dp"
         android:rotation="-90" />
 
@@ -138,4 +151,15 @@
         android:textSize="17sp"
         android:textStyle="italic"/>
 
+<<<<<<< HEAD
+=======
+    <TextView
+        android:id="@+id/plastic_scanned"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="110dp"
+        android:layout_marginTop="80dp"
+        android:textSize="17sp"/>
+>>>>>>> a342f5e93b14fd7b991bb2e674b7eaeb432f62da
 </RelativeLayout>

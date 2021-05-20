@@ -22,12 +22,16 @@ import androidx.lifecycle.ViewModelProvider;
 import com.example.projet_g_f.Capture;
 import com.example.projet_g_f.MainActivity;
 import com.example.projet_g_f.R;
+<<<<<<< HEAD
 import com.getbase.floatingactionbutton.FloatingActionsMenu;
+=======
+>>>>>>> a342f5e93b14fd7b991bb2e674b7eaeb432f62da
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
 public class HomeFragment extends Fragment {
 
+<<<<<<< HEAD
     private static Button mScan_Button,mButtonS,mButtonM,mButtonL,mButtonXL;
     private static TextView mTextView,mTextView_Score,mTextView_minimum,mTextView_maximum,mPlastic_scanned;
     private static ProgressBar mProgressBar;
@@ -36,6 +40,11 @@ public class HomeFragment extends Fragment {
     private static int progressbarlevel[]={0,20,40,80,160,250};
     private static int level = 0;
     private static String size="";
+=======
+    private static Button mScan_Button;
+    private static TextView mTextView,mTextView_Score,mTextView_minimum,mPlastic_scanned;
+    private static ProgressBar mProgressBar;
+>>>>>>> a342f5e93b14fd7b991bb2e674b7eaeb432f62da
 
     private static int mScore = 0;
 
@@ -44,14 +53,18 @@ public class HomeFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_home, container, false);
 
         mScan_Button = root.findViewById(R.id.btn_Scan);
+<<<<<<< HEAD
         mButtonS = root.findViewById(R.id.btn_SizeS);
         mButtonM = root.findViewById(R.id.btn_SizeM);
         mButtonL = root.findViewById(R.id.btn_SizeL);
         mButtonXL = root.findViewById(R.id.btn_SizeXL);
+=======
+>>>>>>> a342f5e93b14fd7b991bb2e674b7eaeb432f62da
         mTextView = root.findViewById(R.id.messages_textView);
         mProgressBar = root.findViewById(R.id.ProgressBar);
         mTextView_Score = root.findViewById(R.id.textview_score);
         mTextView_minimum = root.findViewById(R.id.textview_minimum);
+<<<<<<< HEAD
         mTextView_maximum = root.findViewById(R.id.textview_maximum);
         mPlastic_scanned = root.findViewById(R.id.plastic_scanned);
         mFloatingActionsMenuSize = root.findViewById(R.id.flmenuSize);
@@ -99,6 +112,18 @@ public class HomeFragment extends Fragment {
                 mFloatingActionsMenuSize.collapse();
             }
         });
+=======
+        mPlastic_scanned = root.findViewById(R.id.plastic_scanned);
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            mProgressBar.setMin(0);
+            mProgressBar.setMax(20);
+        }
+        Text_Messages();
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            mTextView_minimum.setText(mProgressBar.getMin()+"");
+        }
+>>>>>>> a342f5e93b14fd7b991bb2e674b7eaeb432f62da
 
         mScan_Button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -108,6 +133,10 @@ public class HomeFragment extends Fragment {
         });
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a342f5e93b14fd7b991bb2e674b7eaeb432f62da
         return root;
     }
 
@@ -133,6 +162,7 @@ public class HomeFragment extends Fragment {
     }
 
     public static void Increase_Score(){
+<<<<<<< HEAD
         if(size.equals("S")){
             mScore+=4;
         }
@@ -145,12 +175,16 @@ public class HomeFragment extends Fragment {
         else if(size.equals("XL")){
             mScore+=10;
         }
+=======
+        mScore+=10;
+>>>>>>> a342f5e93b14fd7b991bb2e674b7eaeb432f62da
         mProgressBar.setProgress(mScore);
     }
 
     public static void setText_plastic_scan(String chaine){
         mPlastic_scanned.setText(mPlastic_scanned.getText()+"\n"+chaine);
     }
+<<<<<<< HEAD
 
     public static void setProgressBar(){
         if(mProgressBar.getProgress() == progressbarlevel[level+1])
@@ -171,4 +205,6 @@ public class HomeFragment extends Fragment {
     public static void expandSizeMenu(){
         mFloatingActionsMenuSize.expand();
     }
+=======
+>>>>>>> a342f5e93b14fd7b991bb2e674b7eaeb432f62da
 }

@@ -41,5 +41,8 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     implementation 'com.journeyapps:zxing-android-embedded:3.4.0'
+<<<<<<< HEAD
     implementation 'com.getbase:floatingactionbutton:1.10.1'
+=======
+>>>>>>> a342f5e93b14fd7b991bb2e674b7eaeb432f62da
 }
